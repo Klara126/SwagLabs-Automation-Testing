@@ -24,7 +24,7 @@ public class InventoryTest extends BaseTest {
         Assert.assertEquals(pageTitle, "Swag Labs", "Page title should be 'Swag Labs'");
 
 
-       //check cart icon
+        //check cart icon
         boolean isCartDisplayed = inventoryPage.isCartIconDisplayed();
         Assert.assertTrue(isCartDisplayed, "Cart icon should be displayed");
 
